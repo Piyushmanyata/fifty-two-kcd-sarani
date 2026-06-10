@@ -59,8 +59,6 @@ export function Offering() {
         >
           <span>Lift to all floors</span>
           <span>2 staff quarters</span>
-          <span>Caretaker booth</span>
-          <span>Street-level commercial unit</span>
           <span>Open terrace at 4th floor</span>
           <span>KMC frontage road</span>
         </motion.div>

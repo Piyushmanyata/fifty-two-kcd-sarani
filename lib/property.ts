@@ -18,8 +18,6 @@ export const floorPlans = [
     image: "/images/ground-plan.jpg",
     area: "Stilt entry, lift lobby and services",
     rows: [
-      ["Shop unit", "12'9\" x 14'3\""],
-      ["Caretaker booth", "12'9\" x 5'0\""],
       ["W.C.", "4'9\" x 5'6\""],
       ["Lift", "1400 x 1350"],
       ["Parking", "4 covered car parks"],
@@ -71,11 +69,11 @@ export const tourFloors = [
     image: "/images/tour-ground-arrival.webp",
     imageAlt: "Rendered potential stilt arrival lobby with lift and covered parking",
     copy:
-      "Sanctioned stilt entry and lift lobby, caretaker booth, service areas, and four covered car parks. Infrastructure designed to support a private security setup.",
+      "Sanctioned stilt entry and lift lobby, service areas, and four covered car parks. Infrastructure designed to support a private security setup.",
     details: [
       "KMC black-top frontage",
       "Lift lobby with 1400 x 1350 lift",
-      "Caretaker booth and service rooms",
+      "Service rooms",
       "4 covered car parks",
     ],
   },
