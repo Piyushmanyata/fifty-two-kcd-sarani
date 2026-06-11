@@ -29,12 +29,30 @@ export const metadata: Metadata = {
   title: "FIFTY TWO - Entire G+4 Building for Sale | New Alipore, Kolkata",
   description:
     "A five-storied premium residential building at 52 Krishna Chandra Dey Sarani, New Alipore - 6,271 sq ft, four residences, four car parks. Offered in its entirety to a single buyer. Price on request.",
+  robots: { index: true, follow: true },
   openGraph: {
-    title: "FIFTY TWO - Entire G+4 Building for Sale",
+    title: "FIFTY TWO — Entire G+4 Building for Sale | New Alipore, Kolkata",
     description:
-      "A five-storied premium residential building at 52 Krishna Chandra Dey Sarani, New Alipore - offered in its entirety to a single buyer.",
-    images: ["/og.jpg"],
+      "A five-storied private residence of 6,271 sq ft on Krishna Chandra Dey Sarani, New Alipore — offered in its entirety to a single buyer. Price on request.",
+    url: "https://52-kcd-sarani.vercel.app",
+    siteName: "FIFTY TWO",
+    locale: "en_IN",
     type: "website",
+    images: [
+      {
+        url: "/og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "FIFTY TWO — G+4 Building for Sale at 52 Krishna Chandra Dey Sarani, New Alipore, Kolkata",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "FIFTY TWO — Entire G+4 Building for Sale | New Alipore, Kolkata",
+    description:
+      "A five-storied private residence of 6,271 sq ft on Krishna Chandra Dey Sarani — offered in its entirety to a single buyer.",
+    images: ["/og.jpg"],
   },
 };
 

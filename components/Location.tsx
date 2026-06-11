@@ -40,6 +40,7 @@ export function Location() {
                 src={mapUrl}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                allow="fullscreen"
                 className="absolute inset-0 h-full w-full border-0 opacity-82 grayscale-[0.12] saturate-[0.9] contrast-[1.05]"
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink via-ink/52 to-ink/10" />
@@ -55,7 +56,7 @@ export function Location() {
                 <a
                   href="https://maps.app.goo.gl/aC4NpSLZWuJ1xaeY8"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   className="clip-corner touch-target mt-7 inline-block bg-champagne px-6 py-4 text-xs font-semibold uppercase tracking-[0.18em] text-ink transition hover:bg-bone"
                 >
                   Open in Google Maps ↗

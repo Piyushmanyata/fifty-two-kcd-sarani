@@ -23,7 +23,7 @@ export function StickyContactBar() {
         <a
           href={contact.whatsapp}
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           className="clip-corner bg-champagne px-4 py-3 text-center text-xs font-semibold uppercase tracking-[0.18em] text-ink"
         >
           WhatsApp

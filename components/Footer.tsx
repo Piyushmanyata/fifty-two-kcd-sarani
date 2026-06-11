@@ -16,7 +16,7 @@ export function Footer() {
         <p className="flex flex-wrap gap-x-5 gap-y-2">
           <a href={contact.phoneHref}>{contact.phone}</a>
           <a href={contact.emailHref}>{contact.email}</a>
-          <a href={contact.whatsapp} target="_blank" rel="noopener">
+          <a href={contact.whatsapp} target="_blank" rel="noopener noreferrer">
             WhatsApp
           </a>
         </p>

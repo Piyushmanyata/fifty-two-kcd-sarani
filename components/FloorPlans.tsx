@@ -84,7 +84,7 @@ export function FloorPlans() {
             <a
               href={contact.floorPlans}
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="mt-8 inline-block text-sm uppercase tracking-[0.18em] text-champagne"
             >
               Request full drawings on WhatsApp →

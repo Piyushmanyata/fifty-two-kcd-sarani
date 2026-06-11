@@ -21,7 +21,7 @@ export function Hero() {
     <section ref={ref} className="relative min-h-[100svh] overflow-hidden bg-ink">
       <motion.div
         className="absolute inset-0"
-        initial={false}
+        initial={reducedMotion ? { opacity: 0 } : { scale: 1.04, filter: "blur(8px)" }}
         animate={reducedMotion ? { opacity: 1 } : { scale: 1, filter: "blur(0px)" }}
         transition={{ duration: 2.2, ease: EASE }}
       >
@@ -110,7 +110,7 @@ export function Hero() {
           SANCTIONED & UNDERWAY · G+4 · 4 CAR PARKS · PRICE ON REQUEST
         </motion.div>
       </motion.div>
-      <a href={contact.whatsapp} className="sr-only">
+      <a href={contact.whatsapp} target="_blank" rel="noopener noreferrer" className="sr-only">
         WhatsApp enquiry
       </a>
     </section>

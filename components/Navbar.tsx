@@ -57,9 +57,9 @@ export function Navbar() {
           </div>
           <button
             className="md:hidden"
-            aria-label="Open menu"
+            aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
-            onClick={() => setOpen(true)}
+            onClick={() => setOpen(!open)}
           >
             <span className="block h-px w-8 bg-bone" />
             <span className="mt-2 block h-px w-8 bg-bone" />

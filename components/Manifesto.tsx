@@ -30,7 +30,7 @@ export function Manifesto() {
   const words = quote.split(" ");
 
   return (
-    <section className="content-auto bg-ink px-5 py-28 md:px-8 md:py-40">
+    <section className="bg-ink px-5 py-28 md:px-8 md:py-40">
       <div className="mx-auto max-w-3xl text-center">
         <p className="font-accent text-[clamp(1.75rem,4vw,2.5rem)] italic leading-[1.5] text-bone">
           {words.map((word, index) => (

@@ -35,7 +35,7 @@ export function ContactCTA() {
             <MagneticButton
               href={href}
               target={external ? "_blank" : undefined}
-              rel={external ? "noopener" : undefined}
+              rel={external ? "noopener noreferrer" : undefined}
               className="premium-panel block h-full p-7 text-left transition duration-300 hover:-translate-y-1 hover:border-champagne"
             >
               <div className="font-display text-3xl uppercase tracking-[0.08em]">
