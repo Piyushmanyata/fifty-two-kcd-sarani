@@ -25,7 +25,7 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://52-kcd-sarani.vercel.app"),
+  metadataBase: new URL("https://fifty-two-kcd-sarani.vercel.app"),
   title: "FIFTY TWO - Entire G+4 Building for Sale | New Alipore, Kolkata",
   description:
     "A five-storied premium residential building at 52 Krishna Chandra Dey Sarani, New Alipore - 6,271 sq ft, four residences, four car parks. Offered in its entirety to a single buyer. Price on request.",
@@ -34,13 +34,13 @@ export const metadata: Metadata = {
     title: "FIFTY TWO — Entire G+4 Building for Sale | New Alipore, Kolkata",
     description:
       "A five-storied private residence of 6,271 sq ft on Krishna Chandra Dey Sarani, New Alipore — offered in its entirety to a single buyer. Price on request.",
-    url: "https://52-kcd-sarani.vercel.app",
+    url: "https://fifty-two-kcd-sarani.vercel.app",
     siteName: "FIFTY TWO",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "https://52-kcd-sarani.vercel.app/og.jpg",
+        url: "https://fifty-two-kcd-sarani.vercel.app/og.jpg",
         width: 1200,
         height: 630,
         alt: "FIFTY TWO — G+4 Building for Sale at 52 Krishna Chandra Dey Sarani, New Alipore, Kolkata",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "FIFTY TWO — Entire G+4 Building for Sale | New Alipore, Kolkata",
     description:
       "A five-storied private residence of 6,271 sq ft on Krishna Chandra Dey Sarani — offered in its entirety to a single buyer.",
-    images: ["https://52-kcd-sarani.vercel.app/og.jpg"],
+    images: ["https://fifty-two-kcd-sarani.vercel.app/og.jpg"],
   },
 };
 
@@ -68,7 +68,7 @@ const jsonLd = {
   name: "FIFTY TWO - Entire G+4 Building for Sale",
   description:
     "A five-storied premium residential building at 52 Krishna Chandra Dey Sarani, New Alipore, offered in its entirety to a single buyer.",
-  url: "https://52-kcd-sarani.vercel.app",
+  url: "https://fifty-two-kcd-sarani.vercel.app",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Premises No. 52, Krishna Chandra Dey Sarani",
