@@ -27,10 +27,10 @@ export function RevealText({
         <span key={line} className="block overflow-hidden">
           <motion.span
             className={`block ${accentLast && index === lines.length - 1 ? "text-champagne" : ""}`}
-            initial={reducedMotion ? { opacity: 0 } : { y: "105%" }}
+            initial={reducedMotion ? { opacity: 0 } : { y: "1.5rem" }}
             animate={load ? (reducedMotion ? { opacity: 1 } : { y: 0 }) : undefined}
             whileInView={!load ? (reducedMotion ? { opacity: 1 } : { y: 0 }) : undefined}
-            viewport={!load ? { once: true, amount: 0.05 } : undefined}
+            viewport={!load ? { once: true, amount: 0.5 } : undefined}
             transition={{
               duration: reducedMotion ? 0.3 : 1,
               ease: EASE,
