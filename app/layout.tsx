@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og.jpg",
+        url: "https://52-kcd-sarani.vercel.app/og.jpg",
         width: 1200,
         height: 630,
         alt: "FIFTY TWO — G+4 Building for Sale at 52 Krishna Chandra Dey Sarani, New Alipore, Kolkata",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "FIFTY TWO — Entire G+4 Building for Sale | New Alipore, Kolkata",
     description:
       "A five-storied private residence of 6,271 sq ft on Krishna Chandra Dey Sarani — offered in its entirety to a single buyer.",
-    images: ["/og.jpg"],
+    images: ["https://52-kcd-sarani.vercel.app/og.jpg"],
   },
 };
 
