@@ -77,7 +77,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 3.1, ease: EASE }}
           >
-            A five-storied private residence of 6,271 sq ft on Krishna Chandra
+            A four-storied private residence of 6,271 sq ft on Krishna Chandra
             Dey Sarani — fully sanctioned, actively under construction, and offered
             in its entirety to a single buyer.
           </motion.p>

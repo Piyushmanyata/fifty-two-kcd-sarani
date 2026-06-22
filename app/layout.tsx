@@ -28,12 +28,12 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://fifty-two-kcd-sarani.vercel.app"),
   title: "FIFTY TWO - Entire G+4 Building for Sale | New Alipore, Kolkata",
   description:
-    "A five-storied premium residential building at 52 Krishna Chandra Dey Sarani, New Alipore - 6,271 sq ft, four residences, four car parks. Offered in its entirety to a single buyer. Price on request.",
+    "A four-storied premium residential building at 52 Krishna Chandra Dey Sarani, New Alipore - 6,271 sq ft, four residences, four car parks. Offered in its entirety to a single buyer. Price on request.",
   robots: { index: true, follow: true },
   openGraph: {
     title: "FIFTY TWO — Entire G+4 Building for Sale | New Alipore, Kolkata",
     description:
-      "A five-storied private residence of 6,271 sq ft on Krishna Chandra Dey Sarani, New Alipore — offered in its entirety to a single buyer. Price on request.",
+      "A four-storied private residence of 6,271 sq ft on Krishna Chandra Dey Sarani, New Alipore — offered in its entirety to a single buyer. Price on request.",
     url: "https://fifty-two-kcd-sarani.vercel.app",
     siteName: "FIFTY TWO",
     locale: "en_IN",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "FIFTY TWO — Entire G+4 Building for Sale | New Alipore, Kolkata",
     description:
-      "A five-storied private residence of 6,271 sq ft on Krishna Chandra Dey Sarani — offered in its entirety to a single buyer.",
+      "A four-storied private residence of 6,271 sq ft on Krishna Chandra Dey Sarani — offered in its entirety to a single buyer.",
     images: ["https://fifty-two-kcd-sarani.vercel.app/og.jpg"],
   },
 };
@@ -67,7 +67,7 @@ const jsonLd = {
   "@type": "RealEstateListing",
   name: "FIFTY TWO - Entire G+4 Building for Sale",
   description:
-    "A five-storied premium residential building at 52 Krishna Chandra Dey Sarani, New Alipore, offered in its entirety to a single buyer.",
+    "A four-storied premium residential building at 52 Krishna Chandra Dey Sarani, New Alipore, offered in its entirety to a single buyer.",
   url: "https://fifty-two-kcd-sarani.vercel.app",
   address: {
     "@type": "PostalAddress",
