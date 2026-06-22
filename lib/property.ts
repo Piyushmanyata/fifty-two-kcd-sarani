@@ -26,7 +26,7 @@ export const floorPlans = [
   },
   {
     key: "typical",
-    label: "TYPICAL 1-2",
+    label: "TYPICAL 1-3",
     title: "Typical Floor - Flat A",
     image: "/images/typical-plan.jpg",
     area: "3 BHK - 1,607 sq ft super built-up",
@@ -45,7 +45,7 @@ export const floorPlans = [
   {
     key: "penthouse",
     label: "PENTHOUSE",
-    title: "Third Floor - Flat B",
+    title: "Fourth Floor - Flat B",
     image: "/images/fourth-plan.jpg",
     area: "2 BHK + Study - 1,450 sq ft plus private terrace",
     rows: [
@@ -108,6 +108,21 @@ export const tourFloors = [
   },
   {
     label: "THIRD",
+    title: "Residence Three",
+    meta: "3 BHK - 1,607 sq ft",
+    image: "/images/tour-dining-kitchen.webp",
+    imageAlt: "Rendered potential furnished dining and kitchen",
+    copy:
+      "A third full-floor home completing the primary residential stack, customizable to mirror or contrast the levels below.",
+    details: [
+      "3 BHK format",
+      "1,607 sq ft super built-up",
+      "Three bedrooms",
+      "Three toilets",
+    ],
+  },
+  {
+    label: "FOURTH",
     title: "The Penthouse",
     meta: "2 BHK + Study - 1,450 sq ft",
     image: "/images/tour-penthouse-terrace.webp",

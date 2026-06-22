@@ -7,9 +7,9 @@ import { RevealText } from "@/components/ui/RevealText";
 const specs = [
   ["Address", "Premises No. 52, Krishna Chandra Dey Sarani, New Alipore"],
   ["Jurisdiction", "Ward 081, P.S. New Alipore, Borough X, KMC"],
-  ["Structure", "G+3 premium residential building"],
+  ["Structure", "G+4 premium residential building"],
   ["Status", "Sanctioned & Under Active Construction"],
-  ["Total saleable", "4,664 sq ft across 3 residences"],
+  ["Total saleable", "6,271 sq ft across 4 residences"],
   ["Parking", "4 covered car parks"],
   ["Lift", "1400 x 1350 lift to all floors"],
   ["Frontage", "KMC black-top road"],

@@ -6,8 +6,8 @@ import { RevealText } from "@/components/ui/RevealText";
 import { EASE, stagger } from "@/lib/animations";
 
 const stats = [
-  [4664, "sq ft super built-up"],
-  [3, "private residences"],
+  [6271, "sq ft super built-up"],
+  [4, "private residences"],
   [4, "covered car parks"],
   [1, "owner"],
 ];
@@ -30,7 +30,7 @@ export function Offering() {
             className="col-span-12 max-w-xl text-base leading-8 text-ink/65 md:col-span-5"
             {...stagger(2)}
           >
-            Three independent residences, one street-level base, one private
+            Four independent residences, one street-level base, one private
             lift-served stack, and one buyer for the whole address.
           </motion.p>
         </div>
@@ -59,7 +59,7 @@ export function Offering() {
         >
           <span>Lift to all floors</span>
           <span>2 staff quarters</span>
-          <span>Open terrace at 3rd floor</span>
+          <span>Open terrace at 4th floor</span>
           <span>KMC frontage road</span>
         </motion.div>
       </div>

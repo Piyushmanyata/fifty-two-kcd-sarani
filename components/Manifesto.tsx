@@ -41,9 +41,9 @@ export function Manifesto() {
           className="mx-auto mt-12 max-w-2xl text-base leading-8 text-mist md:text-lg"
           {...fadeUp}
         >
-          Fifty Two is an upcoming G+3 boutique residence in the heart of New
+          Fifty Two is an upcoming G+4 boutique residence in the heart of New
           Alipore, currently under active construction with all KMC building
-          sanctions fully approved. Comprising two full-floor 3 BHK homes, a
+          sanctions fully approved. Comprising three full-floor 3 BHK homes, a
           terraced penthouse, four covered car parks, and staff infrastructure,
           the property is offered as a single, indivisible whole. Acquired at
           this stage, it provides an unparalleled opportunity to customize layouts
