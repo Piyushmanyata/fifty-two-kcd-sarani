@@ -7,7 +7,7 @@ import { RevealText } from "@/components/ui/RevealText";
 const columns = [
   [
     "Total control.",
-    "No society, no committee, no shared decisions. One owner sets the rules for 6,271 sq ft — occupy it, rent it floor by floor, or customize the entire layout.",
+    "No society, no committee, no shared decisions. One owner sets the rules for 4,664 sq ft — occupy it, rent it floor by floor, or customize the entire layout.",
   ],
   [
     "Sanctioned & Underway.",
@@ -15,7 +15,7 @@ const columns = [
   ],
   [
     "A compound for one family.",
-    "Three full-floor 3 BHKs and a terraced penthouse under one roof — generations together, doors apart. Acquired early, layouts can be seamlessly merged or tailored to your family's exact needs.",
+    "Two full-floor 3 BHKs and a terraced penthouse under one roof — generations together, doors apart. Acquired early, layouts can be seamlessly merged or tailored to your family's exact needs.",
   ],
 ];
 

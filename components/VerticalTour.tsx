@@ -23,7 +23,6 @@ const mobileShortCopies = [
   "Sanctioned stilt entry, lift lobby, and covered parking.",
   "Full-floor 3 BHK layout, fully customisable to your lifestyle.",
   "Independent blank canvas for multi-generational family privacy.",
-  "Third full-floor residence below the terrace level.",
   "Bespoke penthouse with study and a grand private terrace."
 ];
 
@@ -50,7 +49,7 @@ function MobileElevation({ activeIndex, progress }: { activeIndex: number; progr
                 }}
                 transition={{ duration: 0.3 }}
               >
-                {index === 0 ? "G" : index === 4 ? "P" : index}
+                {index === 0 ? "G" : index === 3 ? "P" : index}
               </motion.div>
               <span className={`text-[8px] tracking-widest ${active ? 'text-champagne font-semibold' : 'text-mist'}`}>
                 {floor.label}
@@ -85,7 +84,7 @@ function MiniElevation({ activeIndex }: { activeIndex: number }) {
             <span className="text-xs uppercase tracking-[0.2em] text-mist">
               {index === 0 ? "G" : index}
             </span>
-            {index === 4 && active ? (
+            {index === 3 && active ? (
               <motion.span
                 className="absolute right-5 top-3 h-px w-16 bg-gradient-to-r from-transparent via-champagne to-transparent"
                 initial={{ opacity: 0, x: -30 }}
@@ -166,7 +165,7 @@ export function VerticalTour() {
       id="tour"
       ref={ref}
       className="relative overflow-visible bg-ink px-5 py-0 md:px-8 md:py-0"
-      style={{ minHeight: isDesktop ? "500vh" : "440vh" }}
+      style={{ minHeight: isDesktop ? "400vh" : "350vh" }}
     >
       <div className="pointer-events-none absolute inset-0 hidden md:block">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_72%_45%,rgba(201,169,106,0.18),transparent_36%)]" />
@@ -220,7 +219,7 @@ export function VerticalTour() {
                   
                   {/* Glowing floor number inside the lift cab */}
                   <span className="font-display text-xs tracking-normal mt-[2px] text-champagne">
-                    {activeIndex === 0 ? "G" : activeIndex === 4 ? "P" : activeIndex}
+                    {activeIndex === 0 ? "G" : activeIndex === 3 ? "P" : activeIndex}
                   </span>
                   
                   <div className="absolute inset-x-1 bottom-1 h-[2px] bg-champagne/40" />

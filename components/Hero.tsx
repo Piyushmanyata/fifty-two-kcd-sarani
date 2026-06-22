@@ -77,7 +77,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 3.1, ease: EASE }}
           >
-            A five-storied private residence of 6,271 sq ft on Krishna Chandra
+            A four-storied private residence of 4,664 sq ft on Krishna Chandra
             Dey Sarani — fully sanctioned, actively under construction, and offered
             in its entirety to a single buyer.
           </motion.p>
@@ -107,7 +107,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 3.5, ease: EASE }}
         >
-          SANCTIONED & UNDERWAY · G+4 · 4 CAR PARKS · PRICE ON REQUEST
+          SANCTIONED & UNDERWAY · G+3 · 4 CAR PARKS · PRICE ON REQUEST
         </motion.div>
       </motion.div>
       <a href={contact.whatsapp} target="_blank" rel="noopener noreferrer" className="sr-only">
